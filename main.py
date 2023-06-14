@@ -4,15 +4,14 @@ import psycopg2
 from dotenv import load_dotenv
 import requests
 
-select_airport = (
-    "select * from src_airports where city = %s"
-)
+
 # CREATE_TEMPS_TABLE = """CREATE TABLE IF NOT EXISTS temperatures (room_id INTEGER, temperature REAL,
 #                         date TIMESTAMP, FOREIGN KEY(room_id) REFERENCES rooms(id) ON DELETE CASCADE);"""
 #
 # INSERT_ROOM_RETURN_ID = "INSERT INTO rooms (name) VALUES (%s) RETURNING id;"
 insert_airport = (
-    "INSERT INTO src_airport (airport_code, airport_name, city, coordinates, timezone) VALUES (%s, %s, %s, %s, %s);")
+    "INSERT INTO src_airports (airport_name, city, coordinates) VALUES (%s, %s, %s);"
+)
 
 
 
@@ -25,25 +24,28 @@ def search_airport(location):
     airports = cursor.fetchall()
     return airports
 
-def add_airport(airport_code, airport_name, city, coordinates, timezone):
+def add_airport(airport_name, city, coordinates):
     cursor = con.cursor()
-    cursor.execute(insert_airport, (airport_code,),(airport_name,), (city,), (coordinates,), (timezone,))
+    cursor.execute("INSERT INTO src_airports (airport_name, city, coordinates) VALUES (%s, %s, %s)", (airport_name, city, coordinates))
+    con.commit()
+    cursor.close()
+    con.close()
 
 app =Flask(__name__)
 
-@app.post('/my_loction')
+@app.post('/my-location')
 def send_post():
     data = request.get_json()
     location = data['city']
     answer = search_airport(location)
     for row in answer:
-        return f'В городе {location}, находится аэропорт {row[1]} котрый нахоитсься по координатам: {row[3]}', 201
+        return f'В городе {location}, находится аэропорт {row[1]} котрый нахоитсься по координатам: {row[3]}', 200
 
-@app.post('/add_airport')
+@app.post('/add-airport')
 def add_air():
     data = request.get_json()
-    add_airport(data['airport_code'], data['airport_name'], data['city'], data['coordinates'], data['timezone'])
-    return 201
+    add_airport(airport_name=data['airport_name'],city=data['city'],coordinates=data['coordinates'])
+    return f" asd {data['airport_name']}, {data['city']}, {data['coordinates']}", 201
 
 if __name__ == '__main__':
     app.run(debug=True)
