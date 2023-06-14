@@ -1,17 +1,25 @@
 from flask import Flask, request
 import psycopg2
-
+import os
+from dotenv import load_dotenv
+load_dotenv()
+host = os.getenv('MY_HOST')
+database = os.getenv('MY_DATABASE')
+user = os.getenv('MY_USER')
+password = os.getenv('MY_PASSWORD')
 
 select_airport = "select * from src_airports where city = %s"
 
 select_airport_by_code = "select * from src_airports where airport_code = %s"
 
-con = psycopg2.connect(host='localhost', database='postgres', user='postgres', password='postgres')
+con = psycopg2.connect(host=host, database=database, user=user, password=password)
 
 def search_airport(location):
     cursor = con.cursor()
     cursor.execute(select_airport, (location,))
     airports = cursor.fetchall()
+    cursor.close()
+    con.close()
     return airports
 
 def add_airport(airport_name, city, coordinates):
