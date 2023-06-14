@@ -4,7 +4,7 @@ import psycopg2
 from dotenv import load_dotenv
 import requests
 
-
+select_airport = "select * from src_airports where city = %s"
 # CREATE_TEMPS_TABLE = """CREATE TABLE IF NOT EXISTS temperatures (room_id INTEGER, temperature REAL,
 #                         date TIMESTAMP, FOREIGN KEY(room_id) REFERENCES rooms(id) ON DELETE CASCADE);"""
 #
