@@ -1,20 +1,10 @@
 from flask import Flask, request
-import os
 import psycopg2
-from dotenv import load_dotenv
-import requests
+
 
 select_airport = "select * from src_airports where city = %s"
-# CREATE_TEMPS_TABLE = """CREATE TABLE IF NOT EXISTS temperatures (room_id INTEGER, temperature REAL,
-#                         date TIMESTAMP, FOREIGN KEY(room_id) REFERENCES rooms(id) ON DELETE CASCADE);"""
-#
-# INSERT_ROOM_RETURN_ID = "INSERT INTO rooms (name) VALUES (%s) RETURNING id;"
-insert_airport = (
-    "INSERT INTO src_airports (airport_name, city, coordinates) VALUES (%s, %s, %s);"
-)
 
-
-
+select_airport_by_code = "select * from src_airports where airport_code = %s"
 
 con = psycopg2.connect(host='localhost', database='postgres', user='postgres', password='postgres')
 
@@ -31,7 +21,18 @@ def add_airport(airport_name, city, coordinates):
     cursor.close()
     con.close()
 
+def find_by_code(airport_code):
+    cursor = con.cursor()
+    cursor.execute(select_airport_by_code, (airport_code,))
+    airport = cursor.fetchall()
+    return airport
+
 app =Flask(__name__)
+
+@app.route('/airport_data/<airport_code>')
+def get_user(airport_code):
+    user_data = find_by_code(airport_code)
+    return user_data
 
 @app.post('/my-location')
 def send_post():
