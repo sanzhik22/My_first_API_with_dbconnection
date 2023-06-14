@@ -1,3 +1,5 @@
+import json
+
 from flask import Flask, request
 import psycopg2
 import os
@@ -7,7 +9,6 @@ host = os.getenv('MY_HOST')
 database = os.getenv('MY_DATABASE')
 user = os.getenv('MY_USER')
 password = os.getenv('MY_PASSWORD')
-
 select_airport = "select * from src_airports where city = %s"
 
 select_airport_by_code = "select * from src_airports where airport_code = %s"
@@ -39,16 +40,18 @@ app =Flask(__name__)
 
 @app.route('/airport_data/<airport_code>')
 def get_user(airport_code):
-    user_data = find_by_code(airport_code)
-    return user_data
+    air_data = find_by_code(airport_code)
+    return air_data
 
 @app.post('/my-location')
 def send_post():
     data = request.get_json()
     location = data['city']
     answer = search_airport(location)
-    for row in answer:
-        return f'В городе {location}, находится аэропорт {row[1]} котрый нахоитсься по координатам: {row[3]}', 200
+    json.dumps(answer,ensure_ascii=False)
+    return answer
+    # for row in answer:
+    #     return f'В городе {location}, находится аэропорт {row[1]} котрый нахоитсься по координатам: {row[3]}', 200
 
 @app.post('/add-airport')
 def add_air():
