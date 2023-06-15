@@ -13,28 +13,91 @@ select_airport = "select * from src_airports where city = %s"
 
 select_airport_by_code = "select * from src_airports where airport_code = %s"
 
-con = psycopg2.connect(host=host, database=database, user=user, password=password)
+# con = psycopg2.connect(host=host, database=database, user=user, password=password)
+
+
+# def connect():
+#     """ Connect to the PostgreSQL database server """
+#     conn = None
+#     try:
+#         # connect to the PostgreSQL server
+#         print('Connecting to the PostgreSQL database...')
+#         conn = psycopg2.connect(host=host, database=database, user=user, password=password)
+#
+#         # create a cursor
+#         cur = conn.cursor()
+#
+#         # execute a statement
+#         print('PostgreSQL database version:')
+#         cur.execute('SELECT version()')
+#
+#         # display the PostgreSQL database server version
+#         db_version = cur.fetchone()
+#         print(db_version)
+#
+#         # close the communication with the PostgreSQL
+#         cur.close()
+#     except (Exception, psycopg2.DatabaseError) as error:
+#         print(error)
+#     finally:
+#         if conn is not None:
+#             conn.close()
+#             print('Database connection closed.')
+
+
+
 
 def search_airport(location):
-    cursor = con.cursor()
-    cursor.execute(select_airport, (location,))
-    airports = cursor.fetchall()
-    cursor.close()
-    con.close()
-    return airports
+    try:
+        print('Connecting to the PostgreSQL database...')
+        con = psycopg2.connect(host=host, database=database, user=user, password=password)
+        cursor = con.cursor()
+        print('PostgreSQL database version:')
+        cursor.execute('SELECT version()')
+        db_version = cursor.fetchone()
+        print(db_version)
+        cursor.execute(select_airport, (location,))
+        airports = cursor.fetchall()
+        cursor.close()
+        con.close()
+        return airports
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+        return f'lost connection to database 500 {error}'
 
 def add_airport(airport_name, city, coordinates):
-    cursor = con.cursor()
-    cursor.execute("INSERT INTO src_airports (airport_name, city, coordinates) VALUES (%s, %s, %s)", (airport_name, city, coordinates))
-    con.commit()
-    cursor.close()
-    con.close()
+    try:
+        print('Connecting to the PostgreSQL database...')
+        con = psycopg2.connect(host=host, database=database, user=user, password=password)
+        cursor = con.cursor()
+        print('PostgreSQL database version:')
+        cursor.execute('SELECT version()')
+        db_version = cursor.fetchone()
+        print(db_version)
+        cursor.execute("INSERT INTO src_airports (airport_name, city, coordinates) VALUES (%s, %s, %s)", (airport_name, city, coordinates))
+        print("Row succesfully added")
+        con.commit()
+        cursor.close()
+        con.close()
+        return 'Succes'
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
 
 def find_by_code(airport_code):
-    cursor = con.cursor()
-    cursor.execute(select_airport_by_code, (airport_code,))
-    airport = cursor.fetchall()
-    return airport
+    try:
+        print('Connecting to the PostgreSQL database...')
+        con = psycopg2.connect(host=host, database=database, user=user, password=password)
+        cursor = con.cursor()
+        print('PostgreSQL database version:')
+        db_version = cursor.fetchone()
+        print(db_version)
+        cursor.execute(select_airport_by_code, (airport_code,))
+        airport = cursor.fetchall()
+        cursor.close()
+        con.close()
+        return airport
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
 
 app =Flask(__name__)
 
