@@ -49,6 +49,8 @@ def add_airport(airport_name, city, coordinates):
         return 'Succes'
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
+        return error
+
 
 def find_by_code(airport_code):
     try:
@@ -65,29 +67,43 @@ def find_by_code(airport_code):
         return airport
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
+        return error
 
-app =Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/airport_data/<airport_code>')
 def get_user(airport_code):
-    air_data = find_by_code(airport_code)
-    return air_data
+    try:
+        air_data = find_by_code(airport_code)
+        if air_data != []:
+            return air_data, 200
+        else:
+            return "Sorry, but database doesen't contain that record", 404
+    except (Exception, ConnectionError) as error:
+        print(error)
+        return error
 
-@app.post('/my-location')
-def send_post():
-    data = request.get_json()
-    location = data['city']
-    answer = search_airport(location)
-    json.dumps(answer,ensure_ascii=False)
-    return answer
-    # for row in answer:
-    #     return f'В городе {location}, находится аэропорт {row[1]} котрый нахоитсься по координатам: {row[3]}', 200
+@app.route('/loc/<my_location>')
+def get_loc(my_location):
+    try:
+        answer = search_airport(location=my_location)
+        if answer != []:
+            return answer, 200
+        else:
+            return "Sorry, but database doesen't contain that record" ,404
+    except (Exception, ConnectionError) as error:
+        print(error)
+        return error
 
 @app.post('/add-airport')
 def add_air():
-    data = request.get_json()
-    add_airport(airport_name=data['airport_name'],city=data['city'],coordinates=data['coordinates'])
-    return f" asd {data['airport_name']}, {data['city']}, {data['coordinates']}", 201
+    try:
+        data = request.get_json()
+        add_airport(airport_name=data['airport_name'],city=data['city'],coordinates=data['coordinates'])
+        return f" asd {data['airport_name']}, {data['city']}, {data['coordinates']}", 201
+    except (Exception, ConnectionError) as error:
+        print(error)
+        return error
 
 if __name__ == '__main__':
     app.run(debug=True)
