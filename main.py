@@ -112,7 +112,8 @@ def get_user(airport_code):
         return air_data, 200
     except (Exception, ConnectionError) as error:
         logging.error('Error ocured:' + str(error) + " /" + str(datetime.now()))
-        return error
+        error_ocured['status'] = str(error)
+        return error_ocured
 
 @app.route('/loc/<my_location>')
 def get_loc(my_location):
@@ -124,7 +125,8 @@ def get_loc(my_location):
         return answer, 200
     except (Exception, ConnectionError) as error:
         logging.error('Error occured' + str(error) + ' /' + str(datetime.now()))
-        return error
+        error_ocured['status'] = str(error)
+        return error_ocured
 
 @app.post('/add-airport')
 def add_air():
@@ -136,10 +138,12 @@ def add_air():
             return answer
         except (Exception, KeyError) as error:
             logging.error('Error occured ' + str(error) + " /" + str(datetime.now()))
-        return f" asd {data['airport_name']}, {data['city']}, {data['coordinates']}", 201
+            error_ocured['status'] = str(error)
+            return error_ocured
     except (Exception, ConnectionError) as error:
         logging.error('Error ocured' + str(error) + " /" + str(datetime.now()))
-        return error
+        error_ocured['status'] = str(error)
+        return error_ocured
 
 if __name__ == '__main__':
     app.run(debug=True)
