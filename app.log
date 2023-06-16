@@ -1,0 +1,32 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:trying to connect to server /2023-06-16 11:02:22.946659
+ERROR:root:Error occured 'airport_name' /2023-06-16 11:02:22.946659
+ERROR:root:Error ocured'airport_name' /2023-06-16 11:02:22.946659
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 11:02:22] "[35m[1mPOST /add-airport HTTP/1.1[0m" 500 -
+INFO:root:Trying to connect to server /2023-06-16 11:03:02.266087
+INFO:root:Connecting to the PostgreSQL database... /2023-06-16 11:03:02.266087
+INFO:root:PostgreSQL database version: /2023-06-16 11:03:02.404109
+ERROR:root:Error occuredno results to fetch /2023-06-16 11:03:02.404109
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 11:03:02] "GET /airport_data/BZK HTTP/1.1" 200 -
+INFO:root:Trying to connect to server /2023-06-16 11:03:35.047019
+INFO:root:Connecting to the PostgreSQL database... 2023-06-16 11:03:35.047019
+INFO:root:Succersfully find location info on Санкт-Петербург /2023-06-16 11:03:35.083857
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 11:03:35] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\request_for_loc.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:trying to connect to server /2023-06-16 11:05:31.834275
+INFO:root:Connecting to the PostgreSQL database... 2023-06-16 11:05:31.834275
+INFO:root:PostgreSQL database version: 2023-06-16 11:05:31.868920
+INFO:root:Row succesfully added 2023-06-16 11:05:31.876971
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 11:05:31] "[35m[1mPOST /add-airport HTTP/1.1[0m" 201 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\request_for_loc.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
