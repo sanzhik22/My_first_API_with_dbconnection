@@ -16,7 +16,7 @@ select_airport_by_code = "select * from src_airports where airport_code = %s"
 
 logging.basicConfig(filename='log.txt',level=logging.INFO)
 
-status_fail = {'status': 'Couldnt find that location in datatbase'}s
+status_fail = {'status': 'Couldnt find that location in datatbase'}
 status_added = {'status': 'Row added to database'}
 error_ocured = {'status': ''}
 
