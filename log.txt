@@ -4,77 +4,96 @@ INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 736-301-305
-INFO:root:Opened connection to server /2023-06-16 15:12:20.054629
-INFO:root:Connecting to the PostgreSQL database... 2023-06-16 15:12:20.054629
-INFO:root:Succesfully connected to database /2023-06-16 15:12:20.208596
-INFO:root:PostgreSQL database version: / 2023-06-16 15:12:20.208596
-INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-16 15:12:20.209594
+INFO:root:Opened connection to server /2023-06-16 16:01:47.870787
+INFO:root:Connecting to the PostgreSQL database... 2023-06-16 16:01:47.871788
+INFO:root:Succesfully connected to database /2023-06-16 16:01:47.914785
+INFO:root:PostgreSQL database version: / 2023-06-16 16:01:47.914785
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-16 16:01:47.915784
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-16 16:01:47.916505
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:01:47] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-16 16:01:58.657224
+INFO:root:Connecting to the PostgreSQL database... 2023-06-16 16:01:58.657224
+INFO:root:Succesfully connected to database /2023-06-16 16:01:58.694332
+INFO:root:PostgreSQL database version: / 2023-06-16 16:01:58.694332
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-16 16:01:58.695333
 INFO:root:Success Row [
     [
         "SVO",
-        "???????????",
-        "??????",
+        "Шереметьево",
+        "Москва",
         "(37.4146,55.972599)",
         "Europe/Moscow"
     ],
     [
         "VKO",
-        "???????",
-        "??????",
+        "Внуково",
+        "Москва",
         "(37.2615013123,55.5914993286)",
         "Europe/Moscow"
     ],
     [
         "DME",
-        "??????????",
-        "??????",
+        "Домодедово",
+        "Москва",
         "(37.90629959106445,55.40879821777344)",
         "Europe/Moscow"
     ]
 ] fetched
-INFO:root:Closed connection to database /2023-06-16 15:12:20.212595
+INFO:root:Closed connection to database /2023-06-16 16:01:58.696328
 INFO:root:Succesfully send data
 INFO:root:Connection closed
-INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:12:20] "GET /loc/?????? HTTP/1.1" 200 -
-INFO:root:Opened connection to server /2023-06-16 15:12:43.098208
-INFO:root:Connecting to the PostgreSQL database... 2023-06-16 15:12:43.098208
-INFO:root:Succesfully connected to database /2023-06-16 15:12:43.258320
-INFO:root:PostgreSQL database version: / 2023-06-16 15:12:43.258320
-INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-16 15:12:43.259319
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:01:58] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\request_for_add.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-16 16:02:54.205194
+INFO:root:Connecting to the PostgreSQL database... 2023-06-16 16:02:54.205194
+INFO:root:Succesfully connected to database /2023-06-16 16:02:54.243202
+INFO:root:PostgreSQL database version: 2023-06-16 16:02:54.243202
+INFO:root:Row succesfully added 2023-06-16 16:02:54.262201
+INFO:root:Closed connection to database /2023-06-16 16:02:54.263203
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:02:54] "POST /add-airport HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-16 16:03:07.727813
+INFO:root:Connecting to the PostgreSQL database... 2023-06-16 16:03:07.727813
+INFO:root:Succesfully connected to database /2023-06-16 16:03:07.763902
+INFO:root:PostgreSQL database version: / 2023-06-16 16:03:07.763902
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-16 16:03:07.763902
 INFO:root:Success Row [
     [
-        "YKS",
-        "??????",
-        "??????",
-        "(129.77099609375,62.093299865722656)",
-        "Asia/Yakutsk"
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
     ]
 ] fetched
-INFO:root:Closed connection to database /2023-06-16 15:12:43.260319
+INFO:root:Closed connection to database /2023-06-16 16:03:07.765908
 INFO:root:Succesfully send data
 INFO:root:Connection closed
-INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 15:12:43] "GET /loc/?????? HTTP/1.1" 200 -
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 736-301-305
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 736-301-305
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 736-301-305
-INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-INFO:werkzeug:[33mPress CTRL+C to quit[0m
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:03:07] "GET /loc/Москва HTTP/1.1" 200 -
