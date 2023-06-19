@@ -1,4 +1,3 @@
-import requests
 import json
 import pytest
 import random
@@ -36,3 +35,9 @@ def test_post_fail():
     responce = app.test_client().post('/add-airport', json = data_to_fail_post)
     res = json.loads(responce.data.decode('utf-8'))
     assert responce.status_code == 400
+
+@pytest.mark.get_incor_get
+def test_incorrect_get():
+    responce = app.test_client().get('/loc/dssf')
+    res = json.loads(responce.data.decode('utf-8'))
+    assert responce.status_code == 200
