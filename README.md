@@ -26,19 +26,10 @@ MY_PASSWORD = <<Your database user password>>
 ```
 
 ## Testing
-After running, you can test server by sending POST methods you can do it by [Postman application](https://web.postman.co/workspace/test_workspace~9296645f-ffb9-4f4f-885c-f3b0b6f2e94f/overview) 
-or by running following scripts:
+For running test we use test pytest library
 ```python
-import requests
-url = 'http://<YOUR_API>/add-airport' # server api
-data = {
-    'airport_name': 'Jogn Kennedy',
-    "city": "New York",
-    'coordinates': '(3432, 3214)'
-} # data to send
-x = requests.post(url, json = data) # sending data to server
-
-print(x.text)
+pip install pytest
+pythom -m test_example.py
 ```
 
 To check GET method you also can use [Postman application](https://web.postman.co/workspace/test_workspace~9296645f-ffb9-4f4f-885c-f3b0b6f2e94f/overview)
