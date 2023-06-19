@@ -32,15 +32,6 @@ pip install pytest
 pythom -m test_example.py
 ```
 
-To check GET method you also can use [Postman application](https://web.postman.co/workspace/test_workspace~9296645f-ffb9-4f4f-885c-f3b0b6f2e94f/overview)
-Another way just browse it by link
-```
-http://<YOUR_API>/loc/<my_location> 
-http://<YOUR_API>/airport_data/<airport_code>
-<YOUR_API> - ваша сгенерированная ссылка
-<my_location> - city which fetches by db
-<airport_code> - code of airport 
-```
 
 ## API 
 `/airport_data/<airport_code>`
