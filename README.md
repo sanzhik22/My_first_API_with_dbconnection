@@ -9,8 +9,14 @@ $ git clone https://github.com/sanzhik22/My_first_API_with_dbconnection/blob/mai
 ```
 Requires Python 3.11.3 # adjust it
 
-Install dependencies using pip
+Create a virtual environment and activeate it:
+```python
+python -m venv /path/to/repo
+# in venv directory:
+Scripts/activate
+```
 
+Install dependencies in venv using pip
 
 ```
 pip install -r requirements.txt
@@ -29,7 +35,7 @@ MY_PASSWORD = <<Your database user password>>
 For running test we use test pytest library
 ```python
 pip install pytest
-pythom -m test_example.py
+pythom -m pytest
 ```
 
 
