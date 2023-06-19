@@ -45,7 +45,7 @@ def search_airport(location):
         if airports != []:
             return airports
         else:
-            return status_fail
+            return status_fail, 400
     except (Exception, psycopg2.DatabaseError) as error:
         logging.error('Error occured ' + str(error) + " " + str(datetime.now()))
         error_ocured['status'] = str(error)
