@@ -102,6 +102,11 @@ def find_by_code(airport_code):
 
 app = Flask(__name__)
 
+@app.route('/')
+def check():
+    return {'status': 'Succesfull connection'}
+
+
 @app.route('/airport_data/<airport_code>')
 def get_user(airport_code):
     try:
@@ -139,7 +144,7 @@ def add_air():
         except (Exception, KeyError) as error:
             logging.error('Error occured ' + str(error) + " /" + str(datetime.now()))
             error_ocured['status'] = str(error)
-            return error_ocured
+            return error_ocured, 400
     except (Exception, ConnectionError) as error:
         logging.error('Error ocured' + str(error) + " /" + str(datetime.now()))
         error_ocured['status'] = str(error)
