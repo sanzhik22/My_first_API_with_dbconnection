@@ -20,6 +20,8 @@ status_fail = {'status': 'Couldnt find that location in datatbase'}
 status_added = {'status': 'Row added to database'}
 error_ocured = {'status': ''}
 
+#comments
+
 def json_conv(data):
     result = json.dumps(data, ensure_ascii=False, sort_keys=False, indent=4, separators=(',', ': '))
     return result
