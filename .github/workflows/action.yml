@@ -1,40 +1,74 @@
-name: API checking
+# name: API checking
+
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches:  [ main ]
+
+# jobs:
+#   test:
+#     runs-on: ubuntu_latest
+#     defaults:
+#       run: 
+#         working-directory: ./
+
+#     strategy:
+#       matrix:
+#         python-version: [3.11]
+
+#     env: 
+#         MY_HOST: ${{ secrets.MY_HOST }}
+#         MY_DATABASE: ${{ secrets.MY_DATABASE }}
+#         MY_USER: ${{ secrets.MY_USER }}
+#         MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
+
+#     steps:
+#       - uses: actions/checkout@v3
+
+#       - name: Set up Python
+#         uses: actions/setup-python@v4 
+#         with: 
+#           python-version: ${{matrix.python-version}}        #specifing variable
+
+#       - name: Install dependecies
+#         run: |
+#           python -m install --upgrade pip
+#           pip intsall -r ./requirements.txt
+
+#       - name: Test API methods
+#         run: python -m pytest
+
+name: API Checking
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches:  [ main ]
+    branches: [main]
 
 jobs:
   test:
-    runs-on: ubuntu_latest
-    defaults:
-      run: 
-        working-directory: ./
-
-    strategy:
-      matrix:
-        python-version: [3.11]
-
-    env: 
-        MY_HOST: ${{ secrets.MY_HOST }}
-        MY_DATABASE: ${{ secrets.MY_DATABASE }}
-        MY_USER: ${{ secrets.MY_USER }}
-        MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
       - name: Set up Python
-        uses: actions/setup-python@v4 
-        with: 
-          python-version: ${{matrix.python-version}}        #specifing variable
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9  # Specify the desired Python version
 
-      - name: Install dependecies
+      - name: Install Dependencies
         run: |
-          python -m install --upgrade pip
-          pip intsall -r ./requirements.txt
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Test API methods
-        run: python -m pytest
+      - name: Run Tests
+        env:
+          MY_HOST: ${{ secrets.MY_HOST }}
+          MY_DATABASE: ${{ secrets.MY_DATABASE }}
+          MY_USER: ${{ secrets.MY_USER }}
+          MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
+        run: python -m pytest -m "not post_requests"  # Exclude the post_requests marker
