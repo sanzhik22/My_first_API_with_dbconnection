@@ -97,3 +97,1212 @@ INFO:root:Closed connection to database /2023-06-16 16:03:07.765908
 INFO:root:Succesfully send data
 INFO:root:Connection closed
 INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:03:07] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-16 16:35:41.600388
+INFO:root:Connecting to the PostgreSQL database... 2023-06-16 16:35:41.601392
+INFO:root:Succesfully connected to database /2023-06-16 16:35:41.714561
+INFO:root:PostgreSQL database version: / 2023-06-16 16:35:41.714561
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-16 16:35:41.718563
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-16 16:35:41.724996
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:35:41] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-16 16:35:52.438861
+INFO:root:Connecting to the PostgreSQL database... 2023-06-16 16:35:52.438861
+INFO:root:Succesfully connected to database /2023-06-16 16:35:52.473856
+INFO:root:PostgreSQL database version: / 2023-06-16 16:35:52.473856
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-16 16:35:52.473856
+INFO:root:Success Row [
+    [
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-16 16:35:52.474856
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [16/Jun/2023 16:35:52] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 11:09:19.899020
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 11:09:19.899020
+INFO:root:Succesfully connected to database /2023-06-19 11:09:20.021019
+INFO:root:PostgreSQL database version: / 2023-06-19 11:09:20.021019
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 11:09:20.052018
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 11:09:20.069018
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 11:09:20] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 11:09:20.082017
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 11:09:20.082017
+INFO:root:Succesfully connected to database /2023-06-19 11:09:20.169030
+INFO:root:PostgreSQL database version: / 2023-06-19 11:09:20.169030
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 11:09:20.170021
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 11:09:20.174018
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 11:09:20] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 11:09:22.372152
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 11:09:22.372152
+INFO:root:Succesfully connected to database /2023-06-19 11:09:22.414151
+INFO:root:PostgreSQL database version: / 2023-06-19 11:09:22.414151
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 11:09:22.415150
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 11:09:22.418151
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 11:09:22] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 11:09:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 11:09:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 11:11:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:00:28.331562
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:00:28.332562
+INFO:root:Succesfully connected to database /2023-06-19 17:00:28.409071
+INFO:root:PostgreSQL database version: / 2023-06-19 17:00:28.410071
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:00:28.432603
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:00:28.442603
+ERROR:root:Error occured 'str' object has no attribute 'data' 2023-06-19 17:00:28.442603
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:00:28] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:00:42.727929
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:00:42.727929
+INFO:root:Succesfully connected to database /2023-06-19 17:00:42.806474
+INFO:root:PostgreSQL database version: / 2023-06-19 17:00:42.806474
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:00:42.830480
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:00:42.839480
+ERROR:root:Error occured 'str' object has no attribute 'data' 2023-06-19 17:00:42.839480
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:00:42] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:01:13.865400
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:01:13.865400
+INFO:root:Succesfully connected to database /2023-06-19 17:01:13.912928
+INFO:root:PostgreSQL database version: / 2023-06-19 17:01:13.912928
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:01:13.914927
+INFO:root:Success Row [('LED', 'Пулково', 'Санкт-Петербург', '(30.262500762939453,59.80030059814453)', 'Europe/Moscow')] fetched
+INFO:root:Closed connection to database /2023-06-19 17:01:13.916927
+ERROR:root:Error occured 'list' object has no attribute 'data' 2023-06-19 17:01:13.916927
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:01:13] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:01:27.959970
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:01:27.959970
+INFO:root:Succesfully connected to database /2023-06-19 17:01:27.995975
+INFO:root:PostgreSQL database version: / 2023-06-19 17:01:27.995975
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:01:27.998487
+INFO:root:Success Row [('LED', 'Пулково', 'Санкт-Петербург', '(30.262500762939453,59.80030059814453)', 'Europe/Moscow')] fetched
+INFO:root:Closed connection to database /2023-06-19 17:01:28.002491
+ERROR:root:Error occured 'list' object has no attribute 'data' 2023-06-19 17:01:28.002491
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:01:28] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:02:21.446838
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:02:21.446838
+INFO:root:Succesfully connected to database /2023-06-19 17:02:21.512868
+INFO:root:PostgreSQL database version: / 2023-06-19 17:02:21.512868
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:02:21.536022
+ERROR:root:Error occured 'list' object has no attribute 'data' 2023-06-19 17:02:21.543023
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:02:21] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:02:22.912734
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:02:22.912734
+INFO:root:Succesfully connected to database /2023-06-19 17:02:22.950645
+INFO:root:PostgreSQL database version: / 2023-06-19 17:02:22.950645
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:02:22.951618
+ERROR:root:Error occured 'list' object has no attribute 'data' 2023-06-19 17:02:22.953620
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:02:22] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:02:23.644144
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:02:23.644144
+INFO:root:Succesfully connected to database /2023-06-19 17:02:23.790219
+INFO:root:PostgreSQL database version: / 2023-06-19 17:02:23.790219
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:02:23.790827
+ERROR:root:Error occured 'list' object has no attribute 'data' 2023-06-19 17:02:23.791834
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:02:23] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:03:40.551557
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:03:40.551557
+INFO:root:Succesfully connected to database /2023-06-19 17:03:40.701589
+INFO:root:PostgreSQL database version: / 2023-06-19 17:03:40.701589
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:03:40.702586
+INFO:root:Success Row [('LED', 'Пулково', 'Санкт-Петербург', '(30.262500762939453,59.80030059814453)', 'Europe/Moscow')] fetched
+INFO:root:Closed connection to database /2023-06-19 17:03:40.704586
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:03:40] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:03:55.522447
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:03:55.523446
+INFO:root:Succesfully connected to database /2023-06-19 17:03:55.563966
+INFO:root:PostgreSQL database version: / 2023-06-19 17:03:55.563966
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:03:55.563966
+INFO:root:Success Row [('LED', 'Пулково', 'Санкт-Петербург', '(30.262500762939453,59.80030059814453)', 'Europe/Moscow')] fetched
+INFO:root:Closed connection to database /2023-06-19 17:03:55.565966
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:03:55] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:05:38.752294
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:05:38.752294
+INFO:root:Succesfully connected to database /2023-06-19 17:05:38.847834
+INFO:root:PostgreSQL database version: / 2023-06-19 17:05:38.848828
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:05:38.873346
+ERROR:root:Error occured 'tuple' object has no attribute 'encode' 2023-06-19 17:05:38.882345
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:05:38] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:05:40.052593
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:05:40.052593
+INFO:root:Succesfully connected to database /2023-06-19 17:05:40.086736
+INFO:root:PostgreSQL database version: / 2023-06-19 17:05:40.086736
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:05:40.087737
+ERROR:root:Error occured 'tuple' object has no attribute 'encode' 2023-06-19 17:05:40.088735
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:05:40] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:05:41.051983
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:05:41.051983
+INFO:root:Succesfully connected to database /2023-06-19 17:05:41.086614
+INFO:root:PostgreSQL database version: / 2023-06-19 17:05:41.086614
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:05:41.086614
+ERROR:root:Error occured 'tuple' object has no attribute 'encode' 2023-06-19 17:05:41.087613
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:05:41] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:05:44.267521
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:05:44.267521
+INFO:root:Succesfully connected to database /2023-06-19 17:05:44.301636
+INFO:root:PostgreSQL database version: / 2023-06-19 17:05:44.302638
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:05:44.302638
+ERROR:root:Error occured 'tuple' object has no attribute 'encode' 2023-06-19 17:05:44.303602
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:05:44] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:22:11.151551
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:22:11.152552
+INFO:root:Succesfully connected to database /2023-06-19 17:22:11.200573
+INFO:root:PostgreSQL database version: / 2023-06-19 17:22:11.200573
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:22:11.201579
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:22:11.204586
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:22:11] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:22:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Opened connection to server /2023-06-19 17:22:19.256181
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:22:19.256181
+INFO:root:Succesfully connected to database /2023-06-19 17:22:19.295025
+INFO:root:PostgreSQL database version: / 2023-06-19 17:22:19.296024
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:22:19.296024
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:22:19.297025
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:22:19] "GET /loc/dssf HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:23:54.711873
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:23:54.711873
+INFO:root:Succesfully connected to database /2023-06-19 17:23:54.756873
+INFO:root:PostgreSQL database version: / 2023-06-19 17:23:54.756873
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:23:54.757883
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:23:54.760874
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:23:54] "GET /loc/dssf HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:23:56.379049
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:23:56.379049
+INFO:root:Succesfully connected to database /2023-06-19 17:23:56.417031
+INFO:root:PostgreSQL database version: / 2023-06-19 17:23:56.417031
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:23:56.418031
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:23:56.419031
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:23:56] "GET /loc/dssf HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:23:57.898218
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:23:57.898218
+INFO:root:Succesfully connected to database /2023-06-19 17:23:57.934219
+INFO:root:PostgreSQL database version: / 2023-06-19 17:23:57.934219
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:23:57.934219
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:23:57.935218
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:23:57] "GET /loc/dssf HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:24:00.263587
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:24:00.263587
+INFO:root:Succesfully connected to database /2023-06-19 17:24:00.307420
+INFO:root:PostgreSQL database version: / 2023-06-19 17:24:00.307420
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:24:00.308422
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:24:00.310432
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:00] "GET /loc/dssfs HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:24:26.822029
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:24:26.822029
+INFO:root:Succesfully connected to database /2023-06-19 17:24:26.868004
+INFO:root:PostgreSQL database version: / 2023-06-19 17:24:26.868004
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:24:26.869008
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:24:26.871009
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:26] "[35m[1mGET /loc/dssfs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:27] "GET /loc/dssfs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:27] "GET /loc/dssfs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:27] "GET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:27] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Opened connection to server /2023-06-19 17:24:32.460236
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:24:32.461193
+INFO:root:Succesfully connected to database /2023-06-19 17:24:32.498045
+INFO:root:PostgreSQL database version: / 2023-06-19 17:24:32.498045
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:24:32.499045
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:24:32.503045
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:32] "[35m[1mGET /loc/dssfs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:32] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:32] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:32] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:32] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Opened connection to server /2023-06-19 17:24:47.011103
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:24:47.011103
+INFO:root:Succesfully connected to database /2023-06-19 17:24:47.150007
+INFO:root:PostgreSQL database version: / 2023-06-19 17:24:47.150007
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:24:47.151007
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:24:47.152006
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:47] "[35m[1mGET /loc/dssfs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:47] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:47] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:47] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:24:47] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:25:06.107216
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:25:06.107216
+INFO:root:Succesfully connected to database /2023-06-19 17:25:06.249703
+INFO:root:PostgreSQL database version: / 2023-06-19 17:25:06.250701
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:25:06.253705
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:25:06.256387
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:06] "[35m[1mGET /loc/dssfs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:06] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:06] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:06] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:06] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Opened connection to server /2023-06-19 17:25:07.529319
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:25:07.529319
+INFO:root:Succesfully connected to database /2023-06-19 17:25:07.568331
+INFO:root:PostgreSQL database version: / 2023-06-19 17:25:07.568331
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:25:07.569332
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:25:07.571318
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:07] "[35m[1mGET /loc/dssfs HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:07] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:07] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:07] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:07] "[36mGET /loc/dssfs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Opened connection to server /2023-06-19 17:25:14.192662
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:25:14.192662
+INFO:root:Succesfully connected to database /2023-06-19 17:25:14.233390
+INFO:root:PostgreSQL database version: / 2023-06-19 17:25:14.233390
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:25:14.234389
+INFO:root:Success Row [('LED', 'Пулково', 'Санкт-Петербург', '(30.262500762939453,59.80030059814453)', 'Europe/Moscow')] fetched
+INFO:root:Closed connection to database /2023-06-19 17:25:14.239594
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:14] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:25:18.032004
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:25:18.032004
+INFO:root:Succesfully connected to database /2023-06-19 17:25:18.070006
+INFO:root:PostgreSQL database version: / 2023-06-19 17:25:18.070006
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:25:18.071000
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:25:18.073001
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:18] "[35m[1mGET /loc/Саss HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:18] "GET /loc/Саss?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:18] "GET /loc/Саss?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:18] "GET /loc/Саss?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:25:18] "[36mGET /loc/Саss?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:26:33.029540
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:26:33.029540
+INFO:root:Succesfully connected to database /2023-06-19 17:26:33.093507
+INFO:root:PostgreSQL database version: / 2023-06-19 17:26:33.093507
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:26:33.115506
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:26:33.125506
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:26:33] "[35m[1mGET /loc/Саss HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:26:33] "[36mGET /loc/Саss?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:26:33] "[36mGET /loc/Саss?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:26:33] "[36mGET /loc/Саss?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:26:33] "[36mGET /loc/Саss?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:27:03.556717
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:27:03.556717
+INFO:root:Succesfully connected to database /2023-06-19 17:27:03.604716
+INFO:root:PostgreSQL database version: / 2023-06-19 17:27:03.604716
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:27:03.605713
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:27:03.609713
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:27:03] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:27:07.385259
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:27:07.385259
+INFO:root:Succesfully connected to database /2023-06-19 17:27:07.531977
+INFO:root:PostgreSQL database version: / 2023-06-19 17:27:07.531977
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:27:07.531977
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:27:07.532983
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:27:07] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:27:37.902006
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:27:37.902006
+INFO:root:Succesfully connected to database /2023-06-19 17:27:37.942007
+INFO:root:PostgreSQL database version: / 2023-06-19 17:27:37.943025
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:27:37.943025
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:27:37.945005
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:27:37] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:27:41.837151
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:27:41.837151
+INFO:root:Succesfully connected to database /2023-06-19 17:27:41.873483
+INFO:root:PostgreSQL database version: / 2023-06-19 17:27:41.873483
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:27:41.874483
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:27:41.875483
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:27:41] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:27:53.571671
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:27:53.571671
+INFO:root:Succesfully connected to database /2023-06-19 17:27:53.607522
+INFO:root:PostgreSQL database version: / 2023-06-19 17:27:53.607522
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:27:53.607522
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:27:53.608521
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:27:53] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:27:54.408818
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:27:54.408818
+INFO:root:Succesfully connected to database /2023-06-19 17:27:54.551820
+INFO:root:PostgreSQL database version: / 2023-06-19 17:27:54.551820
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:27:54.552818
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:27:54.553818
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:27:54] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:28:21.791936
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:28:21.791936
+INFO:root:Succesfully connected to database /2023-06-19 17:28:21.846936
+INFO:root:PostgreSQL database version: / 2023-06-19 17:28:21.847938
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:28:21.847938
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:28:21.949524
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:28:21] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:28:23.755349
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:28:23.755349
+INFO:root:Succesfully connected to database /2023-06-19 17:28:23.798322
+INFO:root:PostgreSQL database version: / 2023-06-19 17:28:23.798322
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:28:23.798322
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:28:23.799320
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:28:23] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:28:48.894731
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:28:48.895727
+INFO:root:Succesfully connected to database /2023-06-19 17:28:49.040904
+INFO:root:PostgreSQL database version: / 2023-06-19 17:28:49.040904
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:28:49.041904
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:28:49.043904
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:28:49] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:29:12.163238
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:29:12.163238
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:29:13.376242
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:29:13.376242
+INFO:root:Succesfully connected to database /2023-06-19 17:29:13.522239
+INFO:root:PostgreSQL database version: / 2023-06-19 17:29:13.522239
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:29:13.522239
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:29:13.524238
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:13] "[35m[1mGET /loc/Санкт-Петербург HTTP/1.1[0m" 500 -
+INFO:root:Opened connection to server /2023-06-19 17:29:13.689041
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:29:13.689041
+INFO:root:Succesfully connected to database /2023-06-19 17:29:13.835040
+INFO:root:PostgreSQL database version: / 2023-06-19 17:29:13.835040
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:29:13.835040
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:29:13.836074
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:13] "[35m[1mGET /loc/Санкт-Петербург HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:13] "GET /loc/Санкт-Петербург?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:13] "GET /loc/Санкт-Петербург?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:13] "GET /loc/Санкт-Петербург?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:14] "[36mGET /loc/Санкт-Петербург?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Opened connection to server /2023-06-19 17:29:24.089287
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:29:24.090285
+INFO:root:Succesfully connected to database /2023-06-19 17:29:24.128995
+INFO:root:PostgreSQL database version: / 2023-06-19 17:29:24.128995
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:29:24.129997
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:29:24.130995
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:24] "[35m[1mGET /loc/Санкт-Петербург HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:24] "[36mGET /loc/Санкт-Петербург?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:24] "[36mGET /loc/Санкт-Петербург?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:24] "[36mGET /loc/Санкт-Петербург?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:24] "[36mGET /loc/Санкт-Петербург?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:29:25.834139
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:29:25.834139
+INFO:root:Succesfully connected to database /2023-06-19 17:29:25.875152
+INFO:root:PostgreSQL database version: / 2023-06-19 17:29:25.875152
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:29:25.876152
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:29:25.877152
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:25] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:29:30.251504
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:29:30.251504
+INFO:root:Succesfully connected to database /2023-06-19 17:29:30.341509
+INFO:root:PostgreSQL database version: / 2023-06-19 17:29:30.341509
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:29:30.343506
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:29:30.345509
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:30] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:29:51.723088
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:29:51.723088
+INFO:root:Succesfully connected to database /2023-06-19 17:29:51.761070
+INFO:root:PostgreSQL database version: / 2023-06-19 17:29:51.761070
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:29:51.762069
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:29:51.764071
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:51] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:29:57.143967
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:29:57.143967
+INFO:root:Succesfully connected to database /2023-06-19 17:29:57.189702
+INFO:root:PostgreSQL database version: / 2023-06-19 17:29:57.190703
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:29:57.190703
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:29:57.193765
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:29:57] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:30:54.869810
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:30:54.870846
+INFO:root:Opened connection to server /2023-06-19 17:30:54.871811
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:30:54.871811
+INFO:root:Succesfully connected to database /2023-06-19 17:30:54.910810
+INFO:root:PostgreSQL database version: / 2023-06-19 17:30:54.910810
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:30:54.911809
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:30:54.913810
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:30:54] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:root:Succesfully connected to database /2023-06-19 17:30:55.007242
+INFO:root:PostgreSQL database version: / 2023-06-19 17:30:55.007242
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:30:55.008242
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:30:55.009243
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:30:55] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:32:24.432268
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:32:24.432268
+INFO:root:Succesfully connected to database /2023-06-19 17:32:24.468000
+INFO:root:PostgreSQL database version: / 2023-06-19 17:32:24.468000
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:32:24.469007
+INFO:root:Success Row [
+    [
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:32:24.471006
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:32:24] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:32:44.294311
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:32:44.294311
+INFO:root:Succesfully connected to database /2023-06-19 17:32:44.432318
+INFO:root:PostgreSQL database version: / 2023-06-19 17:32:44.432318
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:32:44.433317
+INFO:root:Success Row [
+    [
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:32:44.435317
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:32:44] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\request_for_loc.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:32:53.030396
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:32:53.031397
+INFO:root:Succesfully connected to database /2023-06-19 17:32:53.192121
+INFO:root:PostgreSQL database version: / 2023-06-19 17:32:53.192121
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:32:53.193122
+INFO:root:Success Row [
+    [
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:32:53.195121
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:32:53] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\request_for_loc.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:33:19.374273
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:33:19.374273
+INFO:root:Succesfully connected to database /2023-06-19 17:33:19.518269
+INFO:root:PostgreSQL database version: / 2023-06-19 17:33:19.519271
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:33:19.519271
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:33:19.520269
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:19] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:33:21.970507
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:33:21.970507
+INFO:root:Succesfully connected to database /2023-06-19 17:33:22.112548
+INFO:root:PostgreSQL database version: / 2023-06-19 17:33:22.112548
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:33:22.112548
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:33:22.113550
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:22] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:33:28.443481
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:33:28.444481
+INFO:root:Succesfully connected to database /2023-06-19 17:33:28.589380
+INFO:root:PostgreSQL database version: / 2023-06-19 17:33:28.589380
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:33:28.589380
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:33:28.591378
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:28] "GET /loc/Санкт- HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:33:43.660028
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:33:43.660028
+INFO:root:Succesfully connected to database /2023-06-19 17:33:43.800032
+INFO:root:PostgreSQL database version: / 2023-06-19 17:33:43.800032
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:33:43.801063
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:33:43.802061
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:43] "[35m[1mGET /loc/Санкт- HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:43] "GET /loc/Санкт-?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:43] "GET /loc/Санкт-?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:43] "GET /loc/Санкт-?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:43] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Opened connection to server /2023-06-19 17:33:45.105173
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:33:45.105173
+INFO:root:Succesfully connected to database /2023-06-19 17:33:45.145175
+INFO:root:PostgreSQL database version: / 2023-06-19 17:33:45.145175
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:33:45.146175
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:33:45.149178
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:45] "[35m[1mGET /loc/Санкт- HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:45] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:45] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:45] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:33:45] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:34:04.844279
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:34:04.845285
+INFO:root:Succesfully connected to database /2023-06-19 17:34:04.886273
+INFO:root:PostgreSQL database version: / 2023-06-19 17:34:04.886273
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:34:04.887277
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:34:04.888309
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:04] "[35m[1mGET /loc/Санкт- HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:05] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:05] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:05] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:05] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Opened connection to server /2023-06-19 17:34:15.761015
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:34:15.761015
+INFO:root:Succesfully connected to database /2023-06-19 17:34:15.802011
+INFO:root:PostgreSQL database version: / 2023-06-19 17:34:15.802011
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:34:15.802011
+INFO:root:Success Row [] fetched
+INFO:root:Closed connection to database /2023-06-19 17:34:15.803010
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:15] "[35m[1mGET /loc/Санкт- HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:15] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:15] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:15] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:34:15] "[36mGET /loc/Санкт-?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:35:10.382072
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:35:10.382072
+INFO:root:Succesfully connected to database /2023-06-19 17:35:10.427072
+INFO:root:PostgreSQL database version: / 2023-06-19 17:35:10.427072
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:35:10.428074
+INFO:root:Success Row [
+    [
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:35:10.429069
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:35:10] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:root:Opened connection to server /2023-06-19 17:35:18.355191
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:35:18.355191
+INFO:root:Succesfully connected to database /2023-06-19 17:35:18.500422
+INFO:root:PostgreSQL database version: / 2023-06-19 17:35:18.500422
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:35:18.500422
+INFO:root:Success Row [
+    [
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:35:18.501421
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:35:18] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\request_for_loc.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:35:32.238852
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:35:32.238852
+INFO:root:Succesfully connected to database /2023-06-19 17:35:32.277067
+INFO:root:PostgreSQL database version: / 2023-06-19 17:35:32.277067
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:35:32.278066
+INFO:root:Success Row [
+    [
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:35:32.280067
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:35:32] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\request_for_loc.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-19 17:36:15.336067
+INFO:root:Connecting to the PostgreSQL database... 2023-06-19 17:36:15.337067
+INFO:root:Succesfully connected to database /2023-06-19 17:36:15.374070
+INFO:root:PostgreSQL database version: / 2023-06-19 17:36:15.374070
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-19 17:36:15.374070
+INFO:root:Success Row [
+    [
+        "SVO",
+        "Шереметьево",
+        "Москва",
+        "(37.4146,55.972599)",
+        "Europe/Moscow"
+    ],
+    [
+        "VKO",
+        "Внуково",
+        "Москва",
+        "(37.2615013123,55.5914993286)",
+        "Europe/Moscow"
+    ],
+    [
+        "DME",
+        "Домодедово",
+        "Москва",
+        "(37.90629959106445,55.40879821777344)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-19 17:36:15.376103
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [19/Jun/2023 17:36:15] "GET /loc/Москва HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\\API_proj\\proj_api_db\\request_for_loc.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
