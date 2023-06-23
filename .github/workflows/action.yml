@@ -18,7 +18,10 @@ jobs:
         python-version: [3.11]
 
     env: 
-      MODE: "dev"
+        MY_HOST: ${{ secrets.MY_HOST }}
+        MY_DATABASE: ${{ secrets.MY_DATABASE }}
+        MY_USER: ${{ secrets.MY_USER }}
+        MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
 
     steps:
       - uses: actions/checkout@v3
