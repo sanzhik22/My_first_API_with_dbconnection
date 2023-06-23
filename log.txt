@@ -1306,3 +1306,28 @@ INFO:werkzeug: * Detected change in 'C:\\Users\\Санжар\\Desktop\\MyJob\\git-api\
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 736-301-305
+INFO:root:Opened connection to server /2023-06-23 11:09:33.016760
+INFO:root:Connecting to the PostgreSQL database... 2023-06-23 11:09:33.016760
+INFO:root:Succesfully connected to database /2023-06-23 11:09:33.108281
+INFO:root:PostgreSQL database version: / 2023-06-23 11:09:33.108281
+INFO:root:('PostgreSQL 15.2, compiled by Visual C++ build 1925, 64-bit',) /2023-06-23 11:09:33.141301
+INFO:root:Success Row [
+    [
+        "LED",
+        "Пулково",
+        "Санкт-Петербург",
+        "(30.262500762939453,59.80030059814453)",
+        "Europe/Moscow"
+    ]
+] fetched
+INFO:root:Closed connection to database /2023-06-23 11:09:33.172827
+INFO:root:Succesfully send data
+INFO:root:Connection closed
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2023 11:09:33] "GET /loc/Санкт-Петербург HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2023 11:09:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
