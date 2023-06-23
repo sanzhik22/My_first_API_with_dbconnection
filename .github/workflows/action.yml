@@ -1,44 +1,3 @@
-# name: API checking
-
-# on:
-#   push:
-#     branches: [ main ]
-#   pull_request:
-#     branches:  [ main ]
-
-# jobs:
-#   test:
-#     runs-on: ubuntu_latest
-#     defaults:
-#       run: 
-#         working-directory: ./
-
-#     strategy:
-#       matrix:
-#         python-version: [3.11]
-
-#     env: 
-#         MY_HOST: ${{ secrets.MY_HOST }}
-#         MY_DATABASE: ${{ secrets.MY_DATABASE }}
-#         MY_USER: ${{ secrets.MY_USER }}
-#         MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
-
-#     steps:
-#       - uses: actions/checkout@v3
-
-#       - name: Set up Python
-#         uses: actions/setup-python@v4 
-#         with: 
-#           python-version: ${{matrix.python-version}}        #specifing variable
-
-#       - name: Install dependecies
-#         run: |
-#           python -m install --upgrade pip
-#           pip intsall -r ./requirements.txt
-
-#       - name: Test API methods
-#         run: python -m pytest
-
 name: API Checking
 
 on:
@@ -71,4 +30,4 @@ jobs:
           MY_DATABASE: ${{ secrets.MY_DATABASE }}
           MY_USER: ${{ secrets.MY_USER }}
           MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
-        run: python -m pytest -m "not post_requests"  # Exclude the post_requests marker
+        run: python -m pytest -m "not skip"  # Exclude the post_requests marker
